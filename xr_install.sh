@@ -21,7 +21,7 @@ else
     last_version=$(v25.6.7)
     yellow "xray最新版本号为： $last_version"
     echo "开始下载xray文件..."
-    wget https://github.com/XTLS/Xray-core/releases/download/$last_version/Xray-linux-64.zip
+    wget https://github.com/XTLS/Xray-core/releases/download/v25.8.29/Xray-linux-64.zip
     cd /root
     mkdir ./Xray
     unzip -d /root/Xray Xray-linux-32.zip
